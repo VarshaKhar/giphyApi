@@ -31,7 +31,6 @@ class TrendingFragment : Fragment() {
     private lateinit var trendsRecyclerView: RecyclerView
     private lateinit var parentContainer: View
     private lateinit var viewModel: TrendingViewModel
-    private lateinit var giphy: GiphyView
 
     companion object {
         fun newInstance() = TrendingFragment()

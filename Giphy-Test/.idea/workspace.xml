@@ -10,8 +10,8 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
@@ -41,11 +41,13 @@
         <option value="resourceFile" />
         <option value="Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="C:\Users\Ashish Jaggi\Downloads\Giphy-Test\Giphy-Test\git" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1vEJbBY5fHVVkCti9lTzrAu71hi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -63,7 +65,7 @@
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -191,62 +193,62 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="221" y="95" key="AndroidCreateResourceDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1626152756589" />
-    <state x="221" y="95" key="AndroidCreateResourceFileDialog" timestamp="1626152463460">
+    <state x="221" y="95" key="AndroidCreateResourceFileDialog" timestamp="1626230732944">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="221" y="95" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1626152463460" />
+    <state x="221" y="95" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1626230732944" />
     <state x="496" y="105" key="AndroidProcessChooserDialog" timestamp="1626157597118">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="496" y="105" key="AndroidProcessChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1626157597118" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1626225147456">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1626229552626">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626225147456" />
-    <state width="1200" height="357" key="GridCell.Tab.0.bottom" timestamp="1626163920407">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626229552626" />
+    <state width="1200" height="357" key="GridCell.Tab.0.bottom" timestamp="1626235596606">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1200" height="357" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626163920407" />
-    <state width="1200" height="357" key="GridCell.Tab.0.center" timestamp="1626163920406">
+    <state width="1200" height="357" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626235596606" />
+    <state width="1200" height="357" key="GridCell.Tab.0.center" timestamp="1626235596606">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1200" height="357" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626163920406" />
-    <state width="1200" height="357" key="GridCell.Tab.0.left" timestamp="1626163920406">
+    <state width="1200" height="357" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626235596606" />
+    <state width="1200" height="357" key="GridCell.Tab.0.left" timestamp="1626235596605">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1200" height="357" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626163920406" />
-    <state width="1200" height="357" key="GridCell.Tab.0.right" timestamp="1626163920407">
+    <state width="1200" height="357" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626235596605" />
+    <state width="1200" height="357" key="GridCell.Tab.0.right" timestamp="1626235596606">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1200" height="357" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626163920407" />
-    <state width="1200" height="172" key="GridCell.Tab.1.bottom" timestamp="1626156971401">
+    <state width="1200" height="357" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626235596606" />
+    <state width="1200" height="172" key="GridCell.Tab.1.bottom" timestamp="1626235384691">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1200" height="172" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626156971401" />
-    <state width="1200" height="172" key="GridCell.Tab.1.center" timestamp="1626156971400">
+    <state width="1200" height="172" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626235384691" />
+    <state width="1200" height="172" key="GridCell.Tab.1.center" timestamp="1626235384691">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1200" height="172" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626156971400" />
-    <state width="1200" height="172" key="GridCell.Tab.1.left" timestamp="1626156971400">
+    <state width="1200" height="172" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626235384691" />
+    <state width="1200" height="172" key="GridCell.Tab.1.left" timestamp="1626235384691">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1200" height="172" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626156971400" />
-    <state width="1200" height="172" key="GridCell.Tab.1.right" timestamp="1626156971400">
+    <state width="1200" height="172" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626235384691" />
+    <state width="1200" height="172" key="GridCell.Tab.1.right" timestamp="1626235384691">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1200" height="172" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626156971400" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1626228309106">
+    <state width="1200" height="172" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626235384691" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1626229577083">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626228309106" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626229577083" />
     <state x="110" y="120" width="1060" height="440" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1626136910102">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="110" y="120" width="1060" height="440" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1280.680@0.0.1280.680" timestamp="1626136910102" />
-    <state x="336" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1626225400345">
+    <state x="336" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1626229492346">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1626225400345" />
+    <state x="336" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1626229492346" />
     <state x="403" y="184" key="edit.logcat.filter.dialog.dimensions" timestamp="1626150190433">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -255,6 +257,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="335" y="73" width="609" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1626138612609" />
+    <state x="382" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1626233426507">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="382" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1626233426507" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -287,22 +293,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/trends/TrendingFragment.kt</url>
-          <line>114</line>
+          <line>113</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/trends/TrendingFragment.kt</url>
-          <line>44</line>
+          <line>43</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/trends/TrendingFragment.kt</url>
-          <line>46</line>
+          <line>45</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/trends/TrendingFragment.kt</url>
-          <line>98</line>
+          <line>97</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
@@ -317,12 +323,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/trends/TrendingFragment.kt</url>
-          <line>104</line>
+          <line>103</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/trends/TrendingFragment.kt</url>
-          <line>57</line>
+          <line>56</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
@@ -347,27 +353,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/trends/TrendingFragment.kt</url>
-          <line>109</line>
+          <line>108</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/trends/TrendingFragment.kt</url>
-          <line>67</line>
+          <line>66</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/trends/TrendingFragment.kt</url>
-          <line>64</line>
+          <line>63</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/trends/TrendingFragment.kt</url>
-          <line>65</line>
+          <line>64</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/trends/TrendingFragment.kt</url>
-          <line>68</line>
+          <line>67</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
@@ -412,12 +418,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/trends/TrendingFragment.kt</url>
-          <line>96</line>
+          <line>95</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/trends/TrendingFragment.kt</url>
-          <line>97</line>
+          <line>96</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
@@ -427,7 +433,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/MainActivity.kt</url>
-          <line>24</line>
+          <line>31</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
@@ -447,8 +453,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/trends/TrendingFragment.kt</url>
-          <line>72</line>
+          <line>71</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/MyAdapter.kt</url>
+          <line>16</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/MyAdapter.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/MyAdapter.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-field">
           <url>file://$PROJECT_DIR$/Giphy-Selection/src/main/kotlin/com/github/varsha/giphy/common/data/ApiProvider.kt</url>

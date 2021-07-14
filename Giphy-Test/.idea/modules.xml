@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Giphy-Selection.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Giphy-Selection.iml" group="Giphy-Test/Giphy-Selection" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Giphy-Test.iml" filepath="$PROJECT_DIR$/.idea/modules/Giphy-Test.iml" group="Giphy-Test" />
+      <module fileurl="file://$PROJECT_DIR$/Kiphy.iml" filepath="$PROJECT_DIR$/Kiphy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Giphy-Selection/app.iml" filepath="$PROJECT_DIR$/Giphy-Selection/app.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.klinkerapps:giphy:2.1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d86c1bf6e034861baf74bff6e240a421/jetified-giphy-2.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d86c1bf6e034861baf74bff6e240a421/jetified-giphy-2.1.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.klinkerapps/giphy/2.1.2/753e1320dc56dd884d1d31eaeb5e796cb1270016/giphy-2.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.klinkerapps/giphy/2.1.2/fa4ff7563b2c284f17dff7bb63f4a5e62092f2dc/giphy-2.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -28,9 +28,10 @@ class TrendingFragment : Fragment() {
 
     private val trendingAdapter by lazy { TrendingAdapter() }
     private lateinit var progressBar: ProgressBar
-    private lateinit var trendsRecyclerView: RecyclerView
+  //  private lateinit var trendsRecyclerView: RecyclerView
     private lateinit var parentContainer: View
     private lateinit var viewModel: TrendingViewModel
+    private lateinit var giphyView: GiphyView
 
     companion object {
         fun newInstance() = TrendingFragment()
@@ -42,9 +43,10 @@ class TrendingFragment : Fragment() {
         val view = inflater.inflate(R.layout.trending_fragment, container, false)
         parentContainer = view.findViewById(R.id.parent_container)
         progressBar = view.findViewById(R.id.progress_bar)
-        trendsRecyclerView = view.findViewById(R.id.trends_recycler_view)
-         setupRecyclerView()
-     //  giphy.initializeView("1gGutWcmvuVxANQsV3aMlmlhjQwyobSg", (5 * 1024 * 1024))
+        giphyView = view.findViewById(R.id.giphyView)
+       // trendsRecyclerView = view.findViewById(R.id.trends_recycler_view)
+         //setupRecyclerView()
+  giphyView.initializeView("1gGutWcmvuVxANQsV3aMlmlhjQwyobSg", (5 * 1024 * 1024))
 
         return view
     }
@@ -52,13 +54,13 @@ class TrendingFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(TrendingViewModel::class.java)
-        observeUiState()
-        observeTrendingData()
+        //observeUiState()
+     //   observeTrendingData()
         viewModel.loadTrending()
 
     }
 
-    private fun observeTrendingData() {
+/*    private fun observeTrendingData() {
         viewModel.trendsDataEvent.observe(viewLifecycleOwner, Observer { state ->
             when (state) {
                 is Result.Success -> {
@@ -73,9 +75,9 @@ class TrendingFragment : Fragment() {
                 }
             }
         })
-    }
+    }*/
 
-    private fun observeUiState() {
+/*    private fun observeUiState() {
         viewModel.uiStateEvent.observe(viewLifecycleOwner, Observer { state ->
             when (state) {
                 is UiState.Loading -> {
@@ -89,9 +91,9 @@ class TrendingFragment : Fragment() {
                 }
             }
         })
-    }
+    }*/
 
-    private fun setupRecyclerView() {
+   /* private fun setupRecyclerView() {
         trendsRecyclerView.apply {
             layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
             addItemDecoration(SpacingItemDecoration(resources.getDimensionPixelSize(R.dimen.spacing_item_decoration_offset)))
@@ -112,13 +114,13 @@ class TrendingFragment : Fragment() {
     private fun showTrending(trending: TrendingResponse) {
         hideProgress()
         trendingAdapter.addTrends(trending.data)
-    }
+    }*/
 
-    private fun showTrendingError() {
+  /*  private fun showTrendingError() {
         hideProgress()
         Snackbar.make(parentContainer, getString(R.string.trending_error), Snackbar.LENGTH_SHORT).show()
     }
-
+*/
     private fun showApiKeyNotSetDialog() {
         activity?.let { context ->
             val alertDialogError = AlertDialog.Builder(context)

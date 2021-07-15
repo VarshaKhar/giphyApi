@@ -1,5 +1,6 @@
 package com.github.varsha.giphy.common.data
 
+import com.github.varsha.giphy.BuildConfig
 import com.github.varsha.giphy.Config
 import com.github.varsha.giphy.trends.TrendingApi
 import com.google.gson.GsonBuilder

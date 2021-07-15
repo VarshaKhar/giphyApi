@@ -13,7 +13,7 @@
         android:usesCleartextTraffic="true"
         android:hardwareAccelerated="false"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
         android:largeHeap="true"
         android:networkSecurityConfig="@xml/network_security_config"
       >

@@ -16,14 +16,14 @@ import com.google.android.material.tabs.TabLayout
  */
 class MainActivity : AppCompatActivity() {
 
-    private val toolbar by lazy{
-        findViewById<Toolbar>(R.id.toolbar) }
+  /*  private val toolbar by lazy{
+       findViewById<Toolbar>(R.id.toolbar) }*/
     lateinit var tabLayout: TabLayout
     lateinit var viewPager: ViewPager
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setSupportActionBar(toolbar)
+//        setSupportActionBar(toolbar)
         tabLayout = findViewById(R.id.tab_layout)
         viewPager = findViewById(R.id.view_pager)
      /*   if (savedInstanceState == null) {
